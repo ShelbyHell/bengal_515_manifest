@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <refs>
-    <image name="KERNEL.PLATFORM.1.0.R1" project="kernelplatform/manifest" server="https://git.codelinaro.org/clo/la" tag="AU_LINUX_KERNEL.PLATFORM.1.0.R1.00.00.00.000.097" targets="dummy"/>
-    <image name="LA.QSSI.12.0.R1" project="la/system/manifest" server="https://git.codelinaro.org/clo/la" tag="AU_LINUX_ANDROID_LA.QSSI.12.0.R1.11.00.00.782.078.01" targets="dummy"/>
-    <image name="DISPLAY.LA.2.0.R1" project="techpack/display/manifest" server="https://git.codelinaro.org/clo/private/display-la-2-0" tag="AU_TECHPACK_DISPLAY.LA.2.0.R1.00.00.00.000.069" targets="dummy"/>
     <image name="CAMERA.LA.2.0.R1" project="techpack/camera/manifest" server="https://git.codelinaro.org/clo/private/camera-la-2-0" tag="AU_TECHPACK_CAMERA.LA.2.0.R1.00.00.00.000.059" targets="dummy"/>
+    <image name="DISPLAY.LA.2.0.R1" project="techpack/display/manifest" server="https://git.codelinaro.org/clo/private/display-la-2-0" tag="AU_TECHPACK_DISPLAY.LA.2.0.R1.00.00.00.000.069" targets="dummy"/>
+    <image name="KERNEL.PLATFORM.1.0.R1" project="kernelplatform/manifest" server="https://git.codelinaro.org/clo/la" tag="AU_LINUX_KERNEL.PLATFORM.1.0.R1.00.00.00.000.097" targets="dummy"/>
     <image name="VIDEO.LA.2.0.R1" project="techpack/video/manifest" server="https://git.codelinaro.org/clo/private/video-la-2-0" tag="AU_TECHPACK_VIDEO.LA.2.0.R1.00.00.00.000.044" targets="dummy"/>
+    <image name="LA.QSSI.12.0.R1" project="la/system/manifest" server="https://git.codelinaro.org/clo/la" tag="AU_LINUX_ANDROID_LA.QSSI.12.0.R1.11.00.00.782.078.01" targets="dummy"/>
   </refs>
   <remote fetch="https://git.codelinaro.org/clo/la" name="generated"/>
   <default remote="generated" revision="dummy_revision" sync-c="true" sync-tags="false"/>
