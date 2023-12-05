@@ -12,7 +12,7 @@
   <project name="device/qcom/sepolicy_vndr" revision="d96105aea006b6d3471b8c9b6906253625d3c8fb" upstream="refs/heads/sepolicy.vndr.lnx.1.0.r11-rel"/>
   <project name="device/qcom/vendor-common" revision="3717a6482d3abf9bbbae8ef2eab0da0ea78f7b50" upstream="refs/heads/qcom-devices.lnx.6.0.r14-rel"/>
   <project name="kernel/build" path="device/qcom/kernelscripts" revision="13848a59ddb0d6eea9d2220690b4ef5296205e7f" upstream="refs/heads/kernel.lnx.5.4.r3-rel"/>
-  <project groups="cyborg" name="kernel/msm-5.4" revision="0fafcd89ef2753bbf9ee3771198ebc3c21c695bc" upstream="refs/heads/kernel.lnx.5.4.r3-rel"/>
+  <project groups="cyborg" name="kernel/msm-5.4" revision="cb33e1bdb7c29665134281ad09a7fc647534be0b" upstream="refs/heads/kernel.lnx.5.4.r3-rel"/>
   <project name="platform/hardware/qcom/audio" path="vendor/qcom/opensource/audio-hal/primary-hal" revision="22c8679a690677112e56787e0ed042e67219a8c7" upstream="refs/heads/audio-hal.lnx.8.0.r15-rel"/>
   <project name="platform/hardware/qcom/bootctrl" path="hardware/qcom/bootctrl" revision="485cfe15e2763c39ccfe5b0685c3f2bb88d1a121" upstream="refs/heads/android-core.lnx.6.0.r14-rel"/>
   <project name="platform/hardware/qcom/display" path="hardware/qcom/display" revision="5c57494676112a18beff301ce852e23ce29d93d6" upstream="refs/heads/display.lnx.7.0.r3-rel">
