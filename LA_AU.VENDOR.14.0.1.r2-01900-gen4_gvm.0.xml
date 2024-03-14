@@ -13,7 +13,7 @@
   </project>
   <project remote="clo-la" name="device/qcom/sepolicy_vndr" path="device/qcom/sepolicy_vndr" revision="52bc5f079d7a7370033405a6b0f3d180622e19e8" upstream="refs/heads/auto-sepolicy_vndr.lnx.14.0.r6-rel"/>
   <project remote="clo-la" name="device/qcom/vendor-common" path="device/qcom/vendor-common" revision="484ae51e20795538f93163e645a3368c84e71b86" upstream="refs/heads/auto-qcom-devices-common.lnx.14.0.r4-rel"/>
-  <project remote="clo-la" name="platform/external/boost-submodules/boost" path="external/boost" revision="44c9802b0521254b8b6ea37bdb2e9bda52e5dc13" upstream="refs/heads/auto-soa-infra.lnx.2.0.r1-rel"/>
+  <project remote="clo-la" name="platform/external/boost-submodules/boost" path="external/boost" revision="44c9802b0521254b8b6ea37bdb2e9bda52e5dc13" sync-s="true" upstream="refs/heads/auto-soa-infra.lnx.2.0.r1-rel"/>
   <project remote="clo-la" name="platform/external/can-utils" path="external/can-utils" revision="0cc7f230dfcad5b5a682455a9593528b8ecfe641" upstream="refs/heads/can-utils-external-platform.lnx.1.0.r80-rel"/>
   <project remote="clo-la" name="platform/external/capicxx-core-runtime" path="external/capicxx-core-runtime" revision="89720d3c63bbd22cbccc80cdc92c2f2dd20193ba" upstream="refs/heads/auto-soa-infra.lnx.2.0.r1-rel"/>
   <project remote="clo-la" name="platform/external/capicxx-someip-runtime" path="external/capicxx-someip-runtime" revision="29cb5c81b67777d594a9ae83eb7d47874b147f7b" upstream="refs/heads/auto-soa-infra.lnx.2.0.r1-rel"/>
