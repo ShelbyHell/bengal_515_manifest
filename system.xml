@@ -81,7 +81,7 @@
     <linkfile src="root.bp" dest="Android.bp"/>
     <linkfile src="bootstrap.bash" dest="bootstrap.bash"/>
   </project>
-  <project name="platform/cts" path="cts" revision="refs/heads/ks-aosp.lnx.13.0.r1-rel" groups="aosp-android13-release,cts,pdk-cw-fs,pdk-fs,qc-common-sys-intf,vsdk_inc_L2,vsdk_inc_L1,vsdk_exc_L3"/>
+  <project name="platform/cts" path="cts" revision="refs/heads/ks-aosp.lnx.13.0.r1-rel" groups="aosp-android13-release,cts,pdk-cw-fs,pdk-fs,qc-common-sys-intf,vsdk_inc_L2,vsdk_inc_L1,vsdk_exc_L3" clone-depth="1" />
   <project name="platform/dalvik" path="dalvik" revision="refs/heads/ks-aosp.lnx.13.0.r1-rel" groups="aosp-android13-release,pdk-cw-fs,pdk-fs,qc-common-sys-intf,vsdk_inc_L1,vsdk_exc_L2,vsdk_exc_L3"/>
   <project name="platform/developers/build" path="developers/build" revision="refs/heads/ks-aosp.lnx.13.0.r1-rel" groups="aosp-android13-release,developers,pdk,qc-common-sys,vsdk_exc_L2,vsdk_exc_L1,vsdk_exc_L3"/>
   <project name="platform/development" path="development" revision="refs/heads/ks-aosp.lnx.13.0.r1-rel" groups="aosp-android13-release,developers,pdk-cw-fs,pdk-fs,qc-common-sys-intf,vsdk_inc_L2,vsdk_inc_L1,vsdk_inc_L3"/>
@@ -938,7 +938,7 @@
   <project name="platform/prebuilts/clang/host/linux-x86" path="prebuilts/clang/host/linux-x86" revision="refs/heads/ks-aosp.lnx.13.0.r1-rel" groups="aosp-android13-release,pdk,cyborg,qc-common-sys-intf,vsdk_inc_L2,vsdk_inc_L1,vsdk_inc_L3" clone-depth="1"/>
   <project name="platform/prebuilts/cmdline-tools" path="prebuilts/cmdline-tools" revision="refs/heads/ks-aosp.lnx.13.0.r1-rel" groups="aosp-android13-release,pdk-fs,qc-common-sys-intf,vsdk_exc_L2,vsdk_exc_L1,vsdk_exc_L3" clone-depth="1"/>
   <project name="platform/prebuilts/devtools" path="prebuilts/devtools" revision="refs/heads/ks-aosp.lnx.13.0.r1-rel" groups="aosp-android13-release,pdk-fs,qc-common-sys,vsdk_exc_L2,vsdk_exc_L1,vsdk_exc_L3" clone-depth="1"/>
-  <project name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" revision="refs/heads/ks-aosp-legacy-build-tools.lnx.1.0.r17-rel" groups="arm,linux,pdk,qcom-LA.UM.7.3-incoming,vendor,qc-common-sys,vsdk_exc_L0,vsdk_exc_L1,vsdk_exc_L2,vsdk_exc_L3"/>
+  <project name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" revision="refs/heads/ks-aosp-legacy-build-tools.lnx.1.0.r17-rel" groups="arm,linux,pdk,qcom-LA.UM.7.3-incoming,vendor,qc-common-sys,vsdk_exc_L0,vsdk_exc_L1,vsdk_exc_L2,vsdk_exc_L3" clone-depth="1"/>
   <project name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" revision="refs/heads/ks-aosp.lnx.13.0.r1-rel" groups="aosp-android13-release,linux,pdk,qc-common-sys-intf,vsdk_inc_L2,vsdk_inc_L1,vsdk_inc_L3" clone-depth="1"/>
   <project name="platform/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8" path="prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8" revision="refs/heads/ks-aosp.lnx.13.0.r1-rel" groups="aosp-android13-release,pdk-fs,qc-common-sys-intf,vsdk_inc_L1,vsdk_exc_L2,vsdk_exc_L3" clone-depth="1"/>
   <project name="platform/prebuilts/go/linux-x86" path="prebuilts/go/linux-x86" revision="refs/heads/ks-aosp.lnx.13.0.r1-rel" groups="aosp-android13-release,linux,pdk,tradefed,qc-common-sys-intf,vsdk_inc_L2,vsdk_inc_L1,vsdk_inc_L3" clone-depth="1"/>
