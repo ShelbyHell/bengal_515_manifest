@@ -7,8 +7,3 @@ repo init -u https://github.com/ShelbyHell/bengal_515_manifest -b AU_LINUX_KERNE
 ```
 repo sync -c -j$(nproc --all) --current-branch --no-clone-bundle --no-tags --force-sync
 ```
-
-# Build kernel
-```
- RECOMPILE_KERNEL=1 kernel_platform/build/android/prepare_vendor.sh
-```
