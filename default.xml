@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- CLO -->
+  <remote name="clo"
+          fetch="https://git.codelinaro.org/clo/la"
+          sync-c="true"
+          sync-tags="false"
+          review="codelinaro.org"/>
+
+  <default remote="clo"/>
+
+  <include name="kernel.xml"/>
+
+</manifest>
